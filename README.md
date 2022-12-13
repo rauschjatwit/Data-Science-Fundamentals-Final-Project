@@ -28,7 +28,7 @@ The above graph shows the frequency of the error error in these predictions. The
 Jake: 
 Another approach looked at used multivariable regression. This solution allowed for multiple factors to be looked at. Based on the equation: 
 
-//insert equation
+![image](https://user-images.githubusercontent.com/71090844/207212535-e11140f3-451e-4fa6-8997-65e74414e6ec.png)
 
 The equation would have n amount of variables (in this case the amount of factors being looked at):
 
