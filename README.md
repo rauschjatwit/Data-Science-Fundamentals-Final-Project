@@ -27,17 +27,18 @@ The above graph shows the frequency of the error error in these predictions. The
 
 Jake: 
 Another approach looked at used multivariable regression. This solution allowed for multiple factors to be looked at. Based on the equation: 
-#
+
 //insert equation
-#
+
 The equation would have n amount of variables (in this case the amount of factors being looked at):
-#
+
 y = is the output predicted value (G3)
 a = Coefficient(slope) for the variable x(the specific factor)
 x = the input of the specific factor for the student’s G3 being predicted
 b = the intercept
 
-//insert code for equation
+![image](https://user-images.githubusercontent.com/71090844/207212338-7b5dd7c5-aa46-461b-adab-ca713d558069.png)
+
 Using a similar approach to the G2 TensorFlow model from earlier:
 -	Trainable variables are defined
 -	A model is defined
