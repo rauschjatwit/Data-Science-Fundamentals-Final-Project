@@ -25,7 +25,7 @@ As you can see above, this model does much better at being more lenient when it 
 
 The above graph shows the frequency of the error error in these predictions. The graph indicates that the model is a little generous in its predictions, but despite some outliers, is rather close to the actual values.
 
-Jake: 
+# Jake: 
 Another approach looked at used multivariable regression. This solution allowed for multiple factors to be looked at. Based on the equation: 
 
 ![image](https://user-images.githubusercontent.com/71090844/207212535-e11140f3-451e-4fa6-8997-65e74414e6ec.png)
