@@ -23,7 +23,9 @@ As you can see above, this model does much better at being more lenient when it 
 
 ![image](https://user-images.githubusercontent.com/70958977/207211444-901f4df3-b6f6-4b14-a19d-f2e0c089224f.png)
 
-The above graph shows the frequency of the error error in these predictions. The graph indicates that the model is a little generous in its predictions, but despite some outliers, is rather close to the actual values.
+The above graph shows the frequency of the error error in these predictions. The graph indicates that the model is a little generous in its predictions, but despite some outliers, is rather close to the actual values. This was the result of the following neural network in TensorFlow:
+
+![image](https://user-images.githubusercontent.com/70958977/207212798-0ff07061-68d3-4c40-b404-46367b387c1e.png)
 
 # Jake: 
 Another approach looked at used multivariable regression. This solution allowed for multiple factors to be looked at. Based on the equation: 
