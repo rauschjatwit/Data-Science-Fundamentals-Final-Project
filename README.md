@@ -15,7 +15,9 @@ Instead of jumping right into the neural network, the model was kept linear and 
 
 This performed surprisingly well, but the desired model would show some appreciation for the outliers on the bottom of the graph and attempt to reduce the error. 
 The next step was to add some layers in the neural network and play with the epoch to see how the same graph as before would change to be more in line with the data it was trained off.
+![image](https://user-images.githubusercontent.com/70958977/207210750-9c800b93-dd3a-4c1e-891b-e775c1c4358d.png)
 
+As you can see above, this model does much better at being more lenient when it comes to some of the outliers at the bottom of the graph.
 # Results
 
 # Discussion
