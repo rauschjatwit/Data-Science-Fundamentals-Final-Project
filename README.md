@@ -23,6 +23,22 @@ As you can see above, this model does much better at being more lenient when it 
 
 The above graph shows the frequency of the error error in these predictions. The graph indicates that the model is a little generous in its predictions, but despite some outliers, is rather close to the actual values.
 
+Jake: 
+Another approach looked at used multivariable regression. This solution allowed for multiple factors to be looked at. Based on the equation: 
+//insert equation
+The equation would have n amount of variables (in this case the amount of factors being looked at):
+y Is the output predicted value (G3)
+a Coefficient(slope) for the variable x(the specific factor)
+xthe input of the specific factor for the student’s G3 being predicted
+bthe intercept
+//insert code for equation
+Using a similar approach to the G2 TensorFlow model from earlier:
+-	Trainable variables are defined
+-	A model is defined
+-	An optimizer object is used (this case it’s the Adam Optimizer)
+-	A loop is created (tested at 2,000, 10,000, and 50,000 iterations)
+//insert code
+
 # Results
 
 # Discussion
