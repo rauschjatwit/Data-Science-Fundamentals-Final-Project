@@ -18,6 +18,7 @@ The next step was to add some layers in the neural network and play with the epo
 ![image](https://user-images.githubusercontent.com/70958977/207210750-9c800b93-dd3a-4c1e-891b-e775c1c4358d.png)
 
 As you can see above, this model does much better at being more lenient when it comes to some of the outliers at the bottom of the graph and still performs when it comes to predicting the rest of the values.
+
 ![image](https://user-images.githubusercontent.com/70958977/207211444-901f4df3-b6f6-4b14-a19d-f2e0c089224f.png)
 
 The above graph shows the frequency of the error error in these predictions. The graph indicates that the model is a little generous in its predictions, but despite some outliers, is rather close to the actual values.
