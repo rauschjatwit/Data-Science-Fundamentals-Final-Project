@@ -54,9 +54,11 @@ To test the multivariable regression, I edited the code so that n=2 and the data
 
 ![image](https://user-images.githubusercontent.com/71090844/207213243-3392532d-f418-4b6a-a923-64df2bfc058a.png)
 
-As seen above the two tests resulted in an answer of 10.7 and 15.2. This resulted in close scores, but not the exact answers of 11 and 16. 
+As seen above the first test resulted in an answer of 10.7. This resulted in a close score, but not the exact answer of 11. 
 
 ![image](https://user-images.githubusercontent.com/71090844/207213285-45cde265-bf97-458c-a2a3-28122a6c72d1.png)
+
+The second test resulted in an anoswer of 15.2 but the G3 was actually 16. 
 
 By changing the n variable to 24 and gathering all 24 columns of data two more tests were performed: 
 
@@ -76,6 +78,7 @@ Lastly, the next question being asked is would more iterations in the for loop c
 
 As seen above a result of 7.68 was the output when G3 was really 9. 
 
+Based on the tests performed with multivariable regression because the slope is being calculated, it is difficult for G3 to be predicted exactly. However, with the outliers eliminated, more data (more student scores), and parameters regarding rounding, an exact score outcome is possible, but the likelyhood of 100% accuracy for every student is low. 
 # Discussion
 
 # Summary
