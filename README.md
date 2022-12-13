@@ -83,7 +83,7 @@ The next visual I wanted to do was to see how far off the multivariable regressi
 
 ![image](https://user-images.githubusercontent.com/71090844/207224052-d96100d5-1ea4-474e-8125-d41ef08e7544.png)
 
-Seen above a result of most guesses to be off between 0 and 2 points. 
+Seen above a result of most guesses to be off between 0 and plus or minus 2 points. 
 
 # Discussion
 After tampering with the neural network, I believe that the parameters could be changed to allow the prediction of the student’s final grade (G3) by using more than just the student’s midterm grade (G2). This would involve combining all the parameters and using the ‘flatten’ functions to turn them into one column. This would allow the neural network to take all these parameters in as inputs and train the weights and biases accordingly.
