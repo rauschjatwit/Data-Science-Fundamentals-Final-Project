@@ -78,11 +78,26 @@ Lastly, the next question being asked is would more iterations in the for loop c
 
 As seen above a result of 7.68 was the output when G3 was really 9. 
 
-Based on the tests performed with multivariable regression because the slope is being calculated, it is difficult for G3 to be predicted exactly. However, with the outliers eliminated, more data (more student scores), and parameters regarding rounding, an exact score outcome is possible, but the likelyhood of 100% accuracy for every student is low. 
+The next visual I wanted to do was to see how far off the multivariable regression output equation was by guessing each student's G3.  
+
+![image](https://user-images.githubusercontent.com/71090844/207224052-d96100d5-1ea4-474e-8125-d41ef08e7544.png)
+
+Seen above a result of most guesses to be off between 0 and 2 points. 
+
 # Discussion
 After tampering with the neural network, I believe that the parameters could be changed to allow the prediction of the student’s final grade (G3) by using more than just the student’s midterm grade (G2). This would involve combining all the parameters and using the ‘flatten’ functions to turn them into one column. This would allow the neural network to take all these parameters in as inputs and train the weights and biases accordingly.
 
-# Summary
-This project allows us to see that although the predictions our models made were not as accurate as they could be, there is a lot of potential for them to do better.  
+Based on the tests performed with multivariable regression because the slope is being calculated, it is difficult for G3 to be predicted exactly. However, with the outliers eliminated, more data (more student scores), and parameters regarding rounding, an exact score outcome is possible, but the likelyhood of 100% accuracy for every student is low.  
 
-One of the downfalls of the models is the amount of data they are attempting to train from. Compared to most large datasets, 397 samples are not ‘a lot’ of data. However, more data cannot be the solution to everything. The TensorFlow model would have greatly benefitted from taking in more factors in order to make a prediction, especially since the outliers of the data in the G2 column may not appear in other factors and may end up alleviating these outliers and even be able to predict them.
+# Summary
+This project allows us to see that although the predictions our models made were not as accurate as they could be, but there is a lot of potential for them to do better.  
+
+One of the downfalls of the models is the amount of data they are attempting to train from. Compared to most large datasets, 397 samples are not ‘a lot’ of data. However, more data cannot be the solution to everything. 
+
+The TensorFlow model would have greatly benefitted from taking in more factors in order to make a prediction, especially since the outliers of the data in the G2 column may not appear in other factors and may end up alleviating these outliers and even be able to predict them. 
+
+The regression model would have benefited from more data as to make the averages more exact and to eliminate the outliers that skew the averages.
+
+Overall, this project showed us that along with other research that has been done. There is a correlation between G1 and G2 grades and G3 grades. It could also be concluded that social factors can have an affect on the grades as well. 
+
+
